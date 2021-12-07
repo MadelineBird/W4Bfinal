@@ -1,0 +1,281 @@
+/* Nav bar on every page */
+#logo-white {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    Width: 185px;
+    height: 115px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+ul {
+    list-style-type: none;
+    background-color: #a4b69e;
+    padding: 20px;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+}
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color: #28412a;
+    text-decoration: underline;
+}
+/* .left-nav {
+    float: left; 
+}
+
+.right-nav {
+    float: right;
+} */
+
+/* Home page Code */
+header {
+    background-color: #fef7ec;
+}
+#hero-home{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    Width: 1440px;
+    height: 480px;
+}
+#home-tagline {
+   background-color: #fef7ec;
+   padding: 20px;
+}
+#home-tagtext {
+    text: #000000;
+    text-align: center;
+    font-size: 30px; 
+}
+#today {
+    text-align: center;
+    font-size: 20px;
+}
+.grid-container {
+    display:grid;
+    grid-template-columns: 405px 405px 405px;
+    grid-template-rows: 399px 50px;
+    column-gap: 20px;
+    row-gap: 10px;
+    background-color: #A4B69E;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+.grid-container > div {
+    text-align: center;
+    font-size: 20px;
+    background-color: #A4B69E;  
+}
+#item4, #item5, #item6 {
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 13px;
+    box-shadow: 5px 10px 15px #888888;
+}
+.image-grid {
+  width: 399px;
+  height: 399px;
+  margin: none;
+  box-shadow: 5px 10px 15px #888888;
+}
+
+/* Footer on Every page */
+#logo-grey {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    Width: 185px;
+    height: 115px;
+}
+footer {
+    background-color: #565656;
+}
+.footer-text {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top:0px;
+    color: white;
+}
+/* #footer-address {
+    text-align: center;
+    margin-top:0px;
+}
+
+#footer-copyright {
+    text-align: center;
+    margin-top:0px;
+}
+
+#footer-attrib {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top:0px;
+} */
+
+/* Contact page code */
+#hero-contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    Width: 1440px;
+    height: 480px;
+    /* Width: 600px;
+    height: 250px; */
+}
+#contact-tagline {
+    background-color: #a4b69e;
+    padding: 25px;
+}
+#contact-tagtext {
+    color: #28412a;
+    text-align: center;
+    font-size: 35px;
+}
+#contact-moreinfo {
+    background-color: #28412a;
+    padding: 50px;
+}
+#moreinfo-text {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* About page code */
+.about-hero-grid {
+    display:grid;
+    grid-template-columns: 480px 480px 480px;
+    grid-template-rows: 360px;
+    background-color: #fef7ec;
+    column-gap: none;
+    
+}
+  .hero-grid-items {
+    background-color: #a4b69e;
+    width: 480px;
+    height: 360px;
+}
+  .herogrid {
+    width: 480px;
+    height: 360px;
+    margin: none;
+
+}
+/* #title-founder {
+    background-color: #a4b69e;  
+}
+ #about-why {
+    background-color: #a4b69e;
+    /* width: 280px;
+    height: 40px; 
+    text-align: center; 
+} */
+#about-founder {
+    background-color: #28412a;
+}
+.founder-photo {
+    margin-left: 40px;
+    margin-right: 0px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#why-text {
+    color: white;
+    width: 400px;
+    display: inline-block;
+    float: right;
+    padding-right: 60px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 1.4; 
+}
+
+/* about page-mission/location */
+.about-grid-container {
+    display:grid;
+    grid-template-columns: 400px 400px ;
+    grid-template-rows: 50px 340px;
+    column-gap: 80px;
+    row-gap: 10px;
+    background-color: #fef7ec;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+  }
+.about-grid-items {
+    text-align: center;
+    font-size: 20px;
+    background-color: #fef7ec;
+    border-style: solid;
+    border-width: 1px;
+}
+#mission-text, #location-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    line-height: 1.4;
+}
+#mission, #location {
+    font-size: 20px;
+}
+#about-middle-hero {
+    width: 1450px;
+    height: 500px;
+}
+
+/* About-Staff */
+#staff-title {
+    background-color: #a4b69e;
+}
+#about-staff1 {
+    background-color: #a4b69e;
+}
+#staff-photo1 {
+    margin-left: 40px;
+    margin-right: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 450px;
+    height: 300px;
+}
+#bio1 {
+    color: #000000;
+    width: 800px;
+    display: inline-block;
+    float: right;
+    padding-right: 80px;
+    text-align: left;
+    padding-top: 100px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+#about-staff2 {
+    background-color: #28412a;
+}
+#staff-photo2 {
+    margin-left: 40px;
+    margin-right: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 450px;
+    height: 300px;
+}
+#bio2 {
+    color: white;
+    width: 800px;
+}
