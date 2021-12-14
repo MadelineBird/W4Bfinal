@@ -290,13 +290,39 @@ footer {
     font-size: 30px;
     padding-bottom: 30px;
 }
-#rooms-and-things {
+.services-grid-container {
+    display:grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 350px 350px 350px 350px 350px;
+    column-gap: 0px;
+    row-gap: 5px;
+    background-color: #fef7ec; 
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+  }
+  .services-grid-items {
+    text-align: center;
+    font-size: 20px;
     background-color: #a4b69e;
-    
-}
-#room-img {
-    width: 600px;
-}
+    /* border-style: solid;
+    border-width: 1px; */
+  }
+  .info {
+    font-size: 20px;
+    margin: 20px;
+    padding-top: 60px;
+  }
+  .servimg {
+    width: 500px;
+    height: 350px;
+  }
+  #s3, #s4, #s7, #s8 {
+      background-color: #28412a;
+      color: white;
+  }
+
 
 /* Contact page code */
 
