@@ -290,6 +290,13 @@ footer {
     font-size: 30px;
     padding-bottom: 30px;
 }
+#rooms-and-things {
+    background-color: #a4b69e;
+    
+}
+#room-img {
+    width: 600px;
+}
 
 /* Contact page code */
 
