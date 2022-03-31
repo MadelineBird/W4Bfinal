@@ -202,7 +202,7 @@ footer {
     font-family: 'Arapey', serif;
 }
 
-/* about page-mission/location */
+/* about page-location */
 .about-grid-container {
     display:grid;
     grid-template-columns: 400px 550px;
@@ -237,7 +237,6 @@ footer {
 }
 
 /* Accom page code */
-
 #accom-hero {
     background-color: #fef7ec;
     
@@ -286,9 +285,7 @@ footer {
       color: white;
   }
 
-
 /* Contact page code */
-
 #hero-contact {
     display: block;
     margin-left: auto;
@@ -357,7 +354,6 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 }
 
 /* on hover placeholder */
-
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
   color: #e2dedb;
   font-size: 0.875em;
